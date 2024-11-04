@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+.grid-container{
+    height: 100vh;
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.grid-container>*{
+    background-color: blueviolet;
+    color: #ffff;
+}
+.item1{
+    grid-column: 2/4;
+}
+.item3{
+    grid-row: 1/4;
+}
+.item6{
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
